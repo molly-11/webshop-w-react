@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import CreateProductCard from "./ProductCard";
+import"../styles/ProductCard.css"
 
 function CreateProducts() {
   const [plants, setPlants] = useState(null);
