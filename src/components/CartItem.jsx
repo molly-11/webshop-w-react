@@ -3,7 +3,7 @@ import { useContext } from "react";
 
 function CartItem(props) {
   const data = props.data;
-  const { cartItems, addToCart, removeFromCart, updateCartItemQty } =
+  const { cartItems, addToCart, removeFromCart } =
     useContext(ShopContext);
 
   return (

@@ -3,7 +3,7 @@ import "../styles/App.css"
 
 function CreateNavbar() {
   return (
-    <nav id="navBar">
+    <nav >
       <div><img id="logo" src="src\assets\logo\logo3.svg" alt="Always Green Plants" /></div>
       <div id="menu"><a>About</a>
       <Link to={"/products"}>Shop</Link>

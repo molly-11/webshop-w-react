@@ -4,9 +4,8 @@ import { ShopContext } from "./shop-context";
 
 function CreateProductCard(props) {
   const plants = props.plants;
-  const { addToCart, cartItems } = useContext(ShopContext);
-
-  // const [qty, setQty] = useState(0);
+  const { cartItems, addToCart, removeFromCart } =
+  useContext(ShopContext);
 
   const cartItemQty = cartItems[plants.id];
 
@@ -17,17 +16,12 @@ function CreateProductCard(props) {
           <img src={plant.img} alt="Plant image" />
           <div className="productData">
             <p className="productName">{plant.name}</p>
-            <p className="productPrice">{plant.price}</p>
-            <p className="productCategory">{plant.type}</p>
-            <form className="shop">
-              <button className="qtyDecr">-</button>
-              <input
-                className="shopQty"
-                type="number"
-                defaultValue={cartItemQty}
-                id={plant.id}
-              />
-              <button className="qtyIncr">+</button>
+            <p className="productPrice">$ {plant.price}</p>
+            <p className="productCategory">Category: {plant.type}</p>
+            <div className="shop">
+             
+              <p className="shopQty">Added to cart: <span>{cartItems[plant.id]}  </span> pcs</p>
+
               <button
                 className="addToCart"
                 onClick={(e) => {
@@ -37,7 +31,7 @@ function CreateProductCard(props) {
               >
                 <img src="src\assets\images\cart.svg" alt="Add to cart" />
               </button>
-            </form>
+            </div>
           </div>
         </div>
       ))}

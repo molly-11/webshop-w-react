@@ -1,29 +1,33 @@
 import { useEffect, useState } from "react";
 import CreateProductCard from "../components/ProductCard";
-import"../styles/ProductCard.css"
+import "../styles/ProductCard.css";
 import { PRODUCTS } from "../productlist";
 import { Link } from "react-router-dom";
 
 function Products() {
-  const [plants, setPlants] = useState(PRODUCTS);
-
- /* useEffect(() => {
-    fetch("data/plants.json")
-      .then((response) => {
-        return response.json();
-      })
-      .then((data)=>{
-        setPlants(data);
-       // console.log(data)
-      });
-  }, []);*/
+  //const [plants, setPlants] = useState(PRODUCTS);
 
   return (
-    <div id="products">
-      <Link to={"/"}>Home</Link>
-      <p>Products</p>
-     {plants && <CreateProductCard plants={plants}/>}
-    </div>
+    <>
+      <nav>
+        <div>
+          <img
+            id="logo"
+            src="src\assets\logo\logo3.svg"
+            alt="Always Green Plants"
+          />
+        </div>
+        <div id="menu">
+          
+          <Link to={"/"}>Home</Link>
+          <Link to={"/cart"}>Shopping Cart</Link>{" "}
+        </div>
+      </nav>
+      <div id="products">
+        <p>Products</p>
+        {PRODUCTS && <CreateProductCard plants={PRODUCTS} />}
+      </div>
+    </>
   );
 }
 
