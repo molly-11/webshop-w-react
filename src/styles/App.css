@@ -19,3 +19,10 @@ nav{
   justify-content: space-between;
   gap: 30px;
 }
+
+h1{
+  font-size: 28px;
+  font-weight:600 ;
+  padding: 0 40px;
+  margin: 40px 0;
+}

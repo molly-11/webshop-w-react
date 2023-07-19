@@ -3,6 +3,7 @@ import CartItem from "../components/CartItem";
 import { PRODUCTS } from "../productlist";
 import { ShopContext } from "../components/shop-context";
 import { Link } from "react-router-dom";
+import "../styles/ShoppingCart.css"
 
 function ShoppingCart() {
   const { cartItems, getTotalAmount } = useContext(ShopContext);
@@ -33,7 +34,8 @@ function ShoppingCart() {
             }
           })}
         </div>
-        <div id="totalPice"> Total amount: $ {totalAmount}</div>
+        <div id="totalPice"> Total amount:  <span>
+        $ {totalAmount}</span></div>
       </div>
     </>
   );

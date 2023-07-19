@@ -1,5 +1,6 @@
 import { ShopContext } from "./shop-context";
 import { useContext } from "react";
+import "../styles/ShoppingCart.css"
 
 function CartItem(props) {
   const data = props.data;
@@ -7,7 +8,7 @@ function CartItem(props) {
     useContext(ShopContext);
 
   return (
-    <div>
+    <>
       <div className="productInCart" key={data.id}>
         <img src={data.img} alt="Plant image" />
         <div className="cartItemData">
@@ -19,7 +20,7 @@ function CartItem(props) {
         </div>
         <div className="countHandler">
           <button
-            className="qtyDecr"
+            className="qtyChange"
             onClick={(e) => {
               e.preventDefault();
               removeFromCart(data.id);
@@ -29,7 +30,7 @@ function CartItem(props) {
           </button>
           <div className="shopQty">{cartItems[data.id]}</div>
           <button
-            className="qtyIncr"
+            className="qtyChange"
             onClick={(e) => {
               e.preventDefault();
               addToCart(data.id);
@@ -39,7 +40,7 @@ function CartItem(props) {
           </button>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

@@ -29,3 +29,18 @@
   justify-content: space-between;
   max-width: 35%;
 }
+
+#aboutImg{
+  max-width: 200px;
+}
+
+#aboutContent{display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:100px;
+  }
+  #aboutContent >p{
+    max-width: 50%;
+    line-height: 2.0;
+  }

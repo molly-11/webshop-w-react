@@ -24,7 +24,7 @@ function Products() {
         </div>
       </nav>
       <div id="products">
-        <p>Products</p>
+        <h1>Products</h1>
         {PRODUCTS && <CreateProductCard plants={PRODUCTS} />}
       </div>
     </>
