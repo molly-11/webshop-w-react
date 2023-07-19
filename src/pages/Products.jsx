@@ -11,11 +11,11 @@ function Products() {
     <>
       <nav>
         <div>
-          <img
+        <Link to={"/"}><img
             id="logo"
             src="src\assets\logo\logo3.svg"
             alt="Always Green Plants"
-          />
+          /></Link>
         </div>
         <div id="menu">
           

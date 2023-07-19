@@ -14,11 +14,12 @@ function ShoppingCart() {
     <>
       <nav>
         <div>
-          <img
+        <img
             id="logo"
             src="src\assets\logo\logo3.svg"
             alt="Always Green Plants"
           />
+          
         </div>
         <div id="menu">
           <Link to={"/"}>Home</Link>
