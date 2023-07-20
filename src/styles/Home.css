@@ -1,0 +1,45 @@
+#articles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#articleText{
+  max-width: 800px;
+}
+
+#articleWrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+h3{
+  
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  display: block;
+}
+
+#articleSection{
+margin-bottom: 120px;
+
+}
+
+.socialMedia{
+  max-width: 25px;
+  color: #316F5F;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px
+}

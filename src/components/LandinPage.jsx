@@ -9,7 +9,7 @@ function CreateLandingPage() {
       </div>
       <div id="landingRight">
         <img src="src\assets\images\chair.jpg" alt="Indoor palmtree" />
-        <img src="src\assets\logo\logo3.svg" alt="logo" />
+        <img src="src\assets\logo\logo.svg" alt="logo" id="mainLogo"/>
         
       </div>
     </div>

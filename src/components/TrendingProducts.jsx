@@ -32,11 +32,11 @@ function TrendingProducts() {
         </div>
       </div>
       
-      <div className="productCard" key={plants[6].id}>
-        <img src={plants[6].img} alt="Plant image" />
+      <div className="productCard" key={plants[7].id}>
+        <img src={plants[7].img} alt="Plant image" />
         <div className="productData">
-          <p className="productName">{plants[6].name}</p>
-          <p className="productPrice">$ {plants[6].price}</p>
+          <p className="productName">{plants[7].name}</p>
+          <p className="productPrice">$ {plants[7].price}</p>
           <div className="shop">
             <Link to={"/products"} className="shopNow">Shop now</Link>
           </div>

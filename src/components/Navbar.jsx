@@ -3,7 +3,7 @@ import "../styles/App.css"
 
 function CreateNavbar() {
   return (
-    <nav >
+    <nav id="home">
               <Link to={"/"}><img
             id="logo"
             src="src\assets\logo\logo3.svg"

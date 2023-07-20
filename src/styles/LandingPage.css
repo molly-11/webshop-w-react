@@ -17,6 +17,10 @@
 
 
 }
+#mainLogo{
+
+  max-height: 280px;
+}
 
 #landingLeft{
   max-width: 65%;
