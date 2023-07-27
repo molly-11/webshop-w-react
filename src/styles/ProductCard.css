@@ -5,7 +5,7 @@
   justify-content: space-between;
   padding: 5px 30px;
   margin: 20px;
-  box-shadow:  2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   width: 300px;
   height: 400px;
 }
@@ -27,7 +27,6 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 
 .addToCart {
@@ -36,6 +35,8 @@
   align-items: center;
   justify-content: center;
   width: 25px;
+  border: 1px solid grey;
+  padding: 3px;
 }
 .addToCart > img {
   max-width: 20px;
@@ -43,36 +44,63 @@
 .shopQty {
   width: 200px;
   text-align: center;
-
+  font-size: 14px;
   padding-left: 5px;
 }
 
-.shopQty >span{
+.shopQty > span {
   font-weight: 900;
   font-size: 18px;
 }
 
 .shop {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
- justify-content: center;
+  justify-content: center;
   gap: 20px;
   margin: 10px 0;
   width: 280px;
 }
 
-.productName{
+.productName {
   font-weight: 600;
-  font-size: 22px;
-  margin:15px
+  font-size: 20px;
+  margin: 15px;
 }
 
-.productPrice{
+.productPrice {
   font-weight: 600;
   font-size: 18px;
 }
 
-.chevron{
+.productCategory {
+  font-size: 14px;
+}
+.chevron {
   width: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+form >input{
+  border: 1px solid grey;
+  height: 40px;
+}
+.filterBtn{
+  padding: 5px;
+  margin: 0 10px;
+  border: 1px solid grey;
+}
+
+@media only screen and (max-width: 600px){
+ .productCard{
+  margin: 10px 40px
+ }
 }

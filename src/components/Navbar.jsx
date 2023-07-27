@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styles/App.css"
 
-function CreateNavbar() {
+function Navbar() {
   return (
     <nav id="home">
               <Link to={"/"}><img
@@ -10,7 +10,7 @@ function CreateNavbar() {
             alt="Always Green Plants"
           /></Link>
       <div id="menu"><a>About</a>
-      <Link to={"/products"}>Shop</Link>
+      <Link to={"/products"}> <span>Shop</span></Link>
       <Link to={"/cart"}>Shopping Cart</Link>
       <a>Contact</a>
       </div>
@@ -19,4 +19,4 @@ function CreateNavbar() {
   );
 }
 
-export default CreateNavbar;
+export default Navbar;

@@ -6,12 +6,14 @@ function Footer() {
     <footer>
       <div id="footerTop">
         <div id="footerText">
-          <img id="logo" src="src\assets\logo\logo3.svg" />
-
-          <a href="#home">Home</a>
-          <Link to={"/products"}>Web Shop</Link>
-          <Link to={"/cart"}>Shopping cart</Link>
-          <Link>Contact</Link>
+          <img className="logo" src="src\assets\logo\logo3.svg" />
+          <div id="footerLinks">
+            {" "}
+            <a href="#home">Home</a>
+            <Link to={"/products"}>Web Shop</Link>
+            <Link to={"/cart"}>Shopping cart</Link>
+            <Link>Contact</Link>
+          </div>
         </div>
         <div id="footerIcons">
           <img

@@ -28,7 +28,7 @@ function CartItem(props) {
           >
             -
           </button>
-          <div className="shopQty">{cartItems[data.id]}</div>
+          <div className="shoppedQty">{cartItems[data.id]}</div>
           <button
             className="qtyChange"
             onClick={(e) => {

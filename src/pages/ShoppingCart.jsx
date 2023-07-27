@@ -37,6 +37,7 @@ function ShoppingCart() {
         </div>
         <div id="totalPice"> Total amount:  <span>
         $ {totalAmount}</span></div>
+        <button id="checkOut">Check out</button>
       </div>
     </>
   );

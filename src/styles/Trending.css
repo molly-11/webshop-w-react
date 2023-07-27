@@ -13,3 +13,22 @@
   width: 100%;
  
 }
+
+@media only screen and (max-width: 600px){
+.productCard{
+  margin-left: 80px;
+  
+}
+
+  #trending{
+    width: 300px;
+  }
+
+  #trending 	div:nth-of-type(2){
+    display: none;
+  }
+  #trending 	div:nth-of-type(3){
+    display: none;
+  }
+
+}
