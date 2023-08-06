@@ -17,7 +17,7 @@ function Products() {
         <div>
         <Link to={"/"}><img
             id="logo"
-            src="src\assets\logo\logo3.svg"
+            src="./assets/logo/logo3.svg"
             alt="Always Green Plants"
           /></Link>
         </div>

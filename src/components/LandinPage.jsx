@@ -8,8 +8,8 @@ function CreateLandingPage() {
         <img src="./assets/images/bedroom.png" alt="Plants in the livingroom" />
       </div>
       <div id="landingRight">
-        <img src="/assets/images/chair.jpg" alt="Indoor palmtree" />
-        <img src="public/assets/logo/logo.svg" alt="logo" id="mainLogo"/>
+        <img src="./assets/images/chair.jpg" alt="Indoor palmtree" />
+        <img src="./assets/logo/logo.svg" alt="logo" id="mainLogo"/>
         
       </div>
     </div>

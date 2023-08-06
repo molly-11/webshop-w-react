@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div id="footerTop">
         <div id="footerText">
-          <img className="logo" src="src\assets\logo\logo3.svg" />
+          <img className="logo" src="./assets/logo/logo3.svg" />
           <div id="footerLinks">
             {" "}
             <a href="#home">Home</a>
@@ -17,17 +17,17 @@ function Footer() {
         </div>
         <div id="footerIcons">
           <img
-            src="src\assets\images\facebook.svg"
+            src="./assets/images/facebook.svg"
             alt="Facebook logo"
             className="socialMedia"
           />
           <img
-            src="src\assets\images\instagram.svg"
+            src="./assets/images/instagram.svg"
             alt="INstagram logo"
             className="socialMedia"
           />
           <img
-            src="src\assets\images\twitter.svg"
+            src="./assets/images/twitter.svg"
             alt="Twitter logo"
             className="socialMedia"
           />

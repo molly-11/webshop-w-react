@@ -6,7 +6,7 @@ function Articles() {
       {" "}
       <h1>Read our plant care tips</h1>
       <div id="articleWrapper">
-        <img src="src\assets\images\care1.jpg" alt="Watering" />
+        <img src="./assets/images/care1.jpg" alt="Watering" />
         <div id="articles">
           <h3>Watering indoor plants</h3>
           <p id="articleText">

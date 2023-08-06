@@ -30,4 +30,7 @@ Shopping cart:
 
 
 
-Source of content (plant images, names, descriptions): https://www.houseplantsexpert.com/ 
+Source of content:
+Svg logo of the company: own design created at https://www.canva.com/
+Plant images, names, descriptions: https://www.houseplantsexpert.com/ 
+Social media logos: https://www.svgrepo.com/

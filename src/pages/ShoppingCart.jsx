@@ -16,7 +16,7 @@ function ShoppingCart() {
         <div>
         <img
             id="logo"
-            src="public\assets\logo\logo3.svg"
+            src="./assets/logo/logo3.svg"
             alt="Always Green Plants"
           />
           

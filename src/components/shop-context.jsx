@@ -1,18 +1,7 @@
 import { createContext, useState } from "react";
 import { PRODUCTS } from "../productlist";
 
-/*const fetchProduts = () => {
-  fetch("data/plants.json")
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      data.map((pl) => {
-        products.push(pl);
-      });
-      console.log(products);
-    });
-};*/
+
 
 export const ShopContext = createContext(null);
 const getDefaultCart = () => {
