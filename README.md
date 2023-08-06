@@ -14,15 +14,15 @@ Tech stack used:
 
 
 Landing page:
-![Image of the landing page](./assets/images/landingpage.JPG "Landing page")
+![Image of the landing page](/public/assets/images/landingpage.JPG "Landing page")
 
 
 Webshop:
-![Image of the shop](./assets/images/webshop.JPG "Web shop")
+![Image of the shop](public/assets/images/webshop.JPG "Web shop")
 
 
 Shopping cart:
-![Image of the shopping cart](./assets/images/shoppingcart.JPG "Shopping cart")
+![Image of the shopping cart](public/assets/images/shoppingcart.JPG "Shopping cart")
 
 
 
