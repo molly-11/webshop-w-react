@@ -3,9 +3,8 @@ This is a hobby project of Edit Selmeczi, created for her personal portfolio.
 The project contains the frontend of a made up webshop of a made up flower company.
 
 Tech stack used:
-       - React, using react hooks: useState, useEffect, useContext.
-          Although there is no backend to handle user action, adding and removing items to the shopping cart is working.
-          This feature is created with useContext and context provider.
+
+       - React, using react hooks: useState, useEffect, useContext. Although there is no backend to handle user action, adding and removing items to the shopping cart is working. This feature is created with useContext and context provider.
 
        - react-router-dom: Router is used for navigation between the pages.
        
