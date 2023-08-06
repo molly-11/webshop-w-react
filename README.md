@@ -15,7 +15,8 @@ Tech stack used:
 
 
 Landing page:
-![Image of the landing page](/src/assets/images/landingpage.JPG "Landing page")
+<img src="/src/assets/images/landingpage.JPG" alt="Image of the landing page" title="Landing page" style="max-width: 300px"/>
+
 
 Webshop:
 ![Image of the shop](/src/assets/images/webshop.JPG "Web shop")
